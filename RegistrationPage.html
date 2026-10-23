@@ -1,1 +1,31 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Page</title>
+</head>
+<body>
+    <h1>Welcome to the Sec C Application</h1>
+    <h2>Registration Form</h2>
+    <form action="RegisterPageServlet" method="post">
+        <label>First Name :</label>
+        <input type="text" name="f_name" required="required" placeholder="First name">
+        <br>
+        <label>Last Name :</label>
+        <input type="text" name="l_name" required="required" placeholder="Last name">
+        <br>
+        <label>Email Address :</label>
+        <input type="email" name="email" required="required" placeholder="Enter Email">
+        <br>
+        <label>Enter Password :</label>
+        <input type="password" name="pwd1" required="required" placeholder="Enter Password">
+        <br>
+        <label>Re-Enter Password :</label>
+        <input type="password" name="pwd2" required="required" placeholder="Re-Enter Password">
+        <br>
+        <button type="submit">Register now</button>
+        <br> 
+       <p>Already have an account?<a href="LoginPage.html">Login now</a></p>
+    </form>
+</body>
+</html>
